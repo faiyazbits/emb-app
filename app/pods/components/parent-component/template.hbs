@@ -1,0 +1,10 @@
+<div>parent comp</div>
+
+<p>Random number in parent</p>
+{{!-- <button onclick={{action "random"}}>add</button> --}}
+<button type="button" onclick={{action 'random'}}>RANDOM NUM</button> 
+
+<h3>{{transformedRandomNumberInParent}}</h3>
+{{child-component
+registeredPublicApi = setPublicChildApi
+}}

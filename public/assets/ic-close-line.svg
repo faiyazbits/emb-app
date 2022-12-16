@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="11px" viewBox="0 0 10 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon/close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="modal/okay" transform="translate(-415.000000, -14.000000)">
+            <g id="icon/close" transform="translate(411.000000, 10.000000)">
+                <g>
+                    <rect id="Rectangle" fill-opacity="0" fill="#263238" x="0" y="0" width="18" height="18"></rect>
+                    <path d="M14,5 L4.34273126,14 M4,5 L13.6572687,14" id="Combined-Shape" stroke="#263238" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+inputtask
+
+{{outlet}}
+{{!-- {{components/inputtask
+}} --}}
+<div>{{input value=firstName disabled=disableName }}
+    {{input value=lastName disabled=disableName }}</div><br>
+
+<div><button type="button" onclick={{action 'onFill' }} class="btn btn-info">FILL</button>
+    <button type="button" {{action 'onButtonClick'}} disabled={{disableSubmitButton}} class="btn btn-info">SUBMIT</button>
+</div>
+<br>
+{{#if isSubmitBtnClicked}}
+<div class="submit">{{this.firstName}} {{this.lastName}}</div>
+{{/if}}

@@ -1,0 +1,17 @@
+<div>child comp</div>
+
+
+<h2>random number in child</h2>
+
+
+<h3>{{transformedRandomNumber}}</h3>
+<label for="users">Choose a Employee Id: {{selectedEmployee.name}}-{{selectedEmployee.age}}</label> 
+<select onchange={{action "onSelectedEmployee" value="target.value" bubbles=true}}>
+{{#each userData as |emp|}}
+       <option value="{{emp.id}}"  selected={{eq selectedId emp.name emp.age}}>{{emp.id}}</option>
+{{/each}}
+</select><br><br>
+<button type="button" onclick={{action 'random'}}>RANDOM NUM</button>
+
+<br>
+

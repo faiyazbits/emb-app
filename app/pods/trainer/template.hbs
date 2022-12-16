@@ -1,0 +1,15 @@
+TRAINING
+<br>
+
+<div class="one"> hai {{firstName}}-{{lastName}}</div>
+<div>{{fullName}}</div>
+
+<button type="button" onclick= {{route-action 'addButton' }}>Add</button>
+
+{{components/training-basic
+firstName = firstName
+lastName = lastName
+}}
+{{#link-to 'table' }}changeroute
+{{/link-to}}
+{{!-- {{outlet}} --}}

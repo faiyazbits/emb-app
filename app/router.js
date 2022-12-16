@@ -9,7 +9,11 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('posts');
   this.route('login');
-  this.route('users');
+  this.route('table');
+  this.route('trainer');
+  this.route('training-one');
+  this.route('inputtask');
+  this.route('parents');
 });
 
 export default Router;

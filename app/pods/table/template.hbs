@@ -1,0 +1,43 @@
+<h2 class = "table"> TABLE </h2>
+
+
+    {{!-- <tbody>
+        {{#each data as |res|}}
+        <tr>
+            <td>
+                {{res.name}}
+            </td>
+            <td>
+                {{res.age}}
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table> --}}
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">FirstName</th>
+      <th scope="col">LastName</th>
+      <th scope="col">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+       {{#each employees as |person index|}}
+     <tr>
+     <th scope="row">{{person.id}}</th>
+      <td>{{person.firstName}}</td>
+      <td>{{person.lastName}}</td>
+      <td>{{person.age}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+ </table>
+
+
+<button type="button" class="btn btn-info" onclick= {{action 'add' }}>Add</button>
+<button type="button" class="btn btn-info" onclick={{action 'delete'}}>Delete</button>
+
+{{!-- {{outlet}} --}}

@@ -1,0 +1,27 @@
+
+@import "ember-cli-bootstrap-4/bootstrap";
+body {
+    background-color: rgba(189, 219, 209, 0.945);
+    color:rgb(9, 28, 112);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.table{
+    color:rgb(115, 16, 145)
+}
+h1 {
+font-weight: lighter;
+}
+
+.training-basic{
+    color:rgb(5, 15, 11);
+    font-size: x-large;
+}
+.submit{
+    //background-color: rgb(0, 174, 255);
+    color:crimson
+}
+button {
+    background-color: rgb(105, 202, 209);
+    border-radius:5px;
+}
